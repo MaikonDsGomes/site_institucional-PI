@@ -1,0 +1,66 @@
+/*Zeranfo atributos - RESET*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #222;
+    color: white;
+    
+}
+
+.header{
+    width: 100%;
+    border-bottom: 2px solid #32b9cd;
+    height: 100px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+}
+.navbar li{
+    margin-right: 10px;
+}
+.banner{
+    height: 300px;
+    background-image: url("imagens/bg-jelly-fish-para_outras_pags.png");
+}
+.banner .container{
+    justify-content: center;
+}
+.banner .container p{
+    font-size: 36px;
+}
+.social{
+    height: auto;
+    background-color: #e5e5e5;
+    padding: 40px 0px;
+}
+.social .container .card{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px
+}
+.social .container .card img{
+    width: 150px;
+}
+.social .container .card p, .card h4{
+    color: black;
+}
+.card h4{
+    font-size: 24px;
+}
